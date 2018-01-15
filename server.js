@@ -10,8 +10,8 @@ app.use(express.static(__dirname + '/public'));
 
 app.get('/',(req,res)=>{
   res.render('welcome.hbs',{
-    name: 'Mich',
-    status: 'ansiedad',
+    name: 'Great',
+    status: 'cool ideas',
     currentYear: new Date().getFullYear()
   });
 });
